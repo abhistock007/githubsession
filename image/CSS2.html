@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+    *{ padding: 0px;
+       margin: 0px;}    
+    
+    body{
+        border: 7px solid gainsboro;
+        background-image:url("food.jpg");
+        background-size: cover;
+       }
+
+   .flex-container{display: flex; flex-wrap: wrap;
+    }
+
+  .item{
+        background-color: black; border: 5px solid red; border-radius: 25px; 
+        text-align: center; color: white;
+        padding: 30px; margin: 20px; 
+        width: 230px; height: 60px; font-weight: bolder; 
+        font-style: italic; font-size: 20px;
+   }
+
+   .item-2{width: 300px; padding-top: 25px; border-radius: 30px; 
+           height: 5px; text-align: right; position: absolute; 
+           margin-left: 220px; margin-top: 28px;}
+    
+   .item-3{margin-left: 600px;  width: 250px; padding-top: 10px; height: 85px;}
+
+   .circle{border: 5px solid red; height: 230px; width: 300px; 
+           border-radius: 600px; color: white;  padding-top: 60px; 
+           margin-left: 20px;   margin-top: 200px;
+           background-color:black; text-align: center; 
+           text-decoration: underline; flex-direction: column; display: inline-flex;}
+
+    
+    .para{border: 5px;
+          border-style: dashed;
+          color:red; background-color: black;
+          width: 400px;
+          height: 750px;
+          margin-left: 400px; margin-top: 250px;
+          padding-top: 30px; 
+          flex-direction: column;
+          display: inline-flex; text-align: center;
+          font-size: 22px;
+          }
+
+    .para1{color:pink; text-align: center;}
+
+    .item-4{margin-top: 100px; margin-left: 500px;
+            width: 300px; border-radius: 30px; height: 20px;
+            font-weight: bolder; font-style: italic; font-size: x-large; padding-top: 15px; }
+
+
+    .tree{
+        border: 5px solid red; 
+        border-radius: 40px;
+        flex-direction: column; 
+        display: inline-flex; 
+        width: 300px;
+        height: 290px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-size: x-large;
+        margin-left: 110px;
+        margin-top: 50px;
+        padding: 20px; box-sizing: border-box;}
+
+    .tree-1{ font-size: 20px; 
+             padding: 20px;
+             text-align: start; margin-left: 30px;}
+
+    .paper{padding-top: 40px; margin-top: 50px;
+           font-size: x-large;
+           height: 310px; 
+           width:300px;
+           display: inline-flex; 
+           flex-direction: column;
+           background-color: black;
+           color: white; 
+           text-align: center;
+           border: 5px solid red; 
+           border-radius: 40px;
+           margin-left: 90px;}
+
+.tree-2{font-size: 20px; padding: 20px; text-align: start; height: 10px; 
+    margin-left: 60px;}
+
+    
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+
+        <div class="item item-1"><h3>Welcome to Dhaba bro you get quality for</h3></div>
+        <div class="item item-2">Home Menu review contact us</div>
+        
+        <div class="item item-3">
+            Email:Store@gmail.com <br><br>
+            If you find any complain <br><br>
+            Contact on-98546***** <br>
+        </div>
+        </div>
+
+    <div class="circle">
+        
+        <strong><em>
+        EXCITING OFFERS<br><br><br><hr>
+        <br>**GET OUR SPECIAL THALI FOR <br> ONLY RS-100 ONLY ON MONDAY** <br><br><br><hr>
+        <br>PLZ RATE US OUT OF 5</em></strong>
+    </div>
+       
+    <div class="para">
+        
+    <h3 style="color: pink;">PLEASE REGISTER HERE</h3><hr>
+
+    <form action="">  
+        
+    <div class="para1">
+       <br> <label for="name">First name:</label><br>
+            
+        <input type="text" name="name" placeholder="enter your first name" id="name" /><br><br>
+    </div>
+
+    <div class="para1">
+        
+        <label for="lastname">Last name:</label><br>
+        
+        <input type="text" name="name" placeholder="enter your last name" id="lastname"/><br><br>
+    </div>
+
+    <div class="para1">
+        <label for="age">Your age:</label><br>
+      
+        <input type="number" name="age" placeholder="enter your age" id="age" ><br><br>
+    </div>
+
+    <div class="para1">
+        <label for="email">Email:</label><br>
+
+        <input type="text" name="email" placeholder="myEmail" id="email"/><br><br>
+    </div>
+
+    <div class="para1">
+        <label for="dob">Date of Birth:</label><br>
+
+        <input type="date" name="number" id="dob" /><br><br>
+    </div>
+
+    <div class="para1">Are you more than one person? <br>
+        <input type="checkbox" name="checkbox" id="checkbox">
+    </div><br>
+
+    <div class="para1">Do you have cough or cold? <br>
+        <input type="checkbox" name="checkbox" id="checkbox">
+    </div><br>
+
+    <div class="para1">click here <br>
+        <input type="Submit here" value="submit here">
+    </div><br>
+
+    <div class="para1">Reset <br>
+        <input type="Reset" value="Reset">
+    </div>
+
+    </form>
+    </div>
+
+    <div class="item item-4">MENU</div><hr>
+
+    <div class="tree">
+        <h3>Starters</h3><hr>
+
+    <div class="tree-1">
+
+        <ul>
+            <li>Paneer tikka</li>
+            <li>Tomato soup</li>
+            <li>Afghani chaap</li>
+            <li>Veg raita</li>
+            <li>Gol gappa</li>
+            <li>Tikki</li>
+            <li>Fried rice</li>
+        </ul>
+    </div></div>
+
+    <div class="tree">
+        <h3>South Indian</h3><hr>
+    
+    <div class="tree-1">
+
+        <ul>
+            <li>Masala dosa</li>
+            <li>Idli saambhar</li>
+            <li>Mic veg uttapam</li>
+            <li>Onion dosa</li>
+            <li>Vada saambhar</li>
+            <li>Paper plain dosa</li>
+            <li>Tomato uttapam</li>
+        </ul>
+    </div></div>
+
+    <div class="tree">
+        <h3>Indian kitchen</h3><hr>
+
+    <div class="tree-1">
+
+        <ul>
+            <li>Stuff capsicum</li>
+            <li>Aloo ghobi</li>
+            <li>Dal makhni</li>
+            <li>Malai kofta</li>
+            <li>Poori sabji</li>
+            <li>Kadhai paneer</li>
+            <li>Shahi paneer</li>
+        </ul>
+    </div></div>
+
+    <div class="tree">
+        <h3>Rice & Salad</h3><hr>
+
+    <div class="tree-1">
+        <ul>
+            <li>Plain rice</li>
+            <li>Jeera rice</li>
+            <li>Fried rice</li>
+            <li>Veg pulao</li>
+            <li>Veg biryani</li>
+            <li>Cheese fried rice</li>
+            <li>Masala salad</li>
+        </ul>
+    </div></div>
+
+    <div class="tree">
+        <h3>Tandoori Bread</h3><hr>
+
+    <div class="tree-1">
+        <ul>
+            <li>Onion parantha</li>
+            <li>Missi roti</li>
+            <li>Stuff parantha</li>
+            <li>Paneer parantha</li>
+            <li>Butter naan</li>
+            <li>Laccha Parantha</li>
+            <li>Butter roti</li>
+        </ul></div></div>
+
+    <div class="paper">
+        <br><h3>Beverages and <br>Other</h3><hr>
+
+    <div class="tree-2">
+        <ul>
+            <li>Gajar Halwa</li>
+            <li>Cake</li>
+            <li>Ice Cream</li>
+            <li>Mineral Water</li>
+            <li>Badam Milk</li>
+            <li>Cold drinks</li>
+            <li>Cold coffee</li>
+        </ul>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </body>
+    </html>
