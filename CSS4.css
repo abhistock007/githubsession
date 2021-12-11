@@ -1,0 +1,21 @@
+*{margin: 0;padding: 0;}
+        
+#grad1 {
+        height: 30px;
+        background-image: linear-gradient(to left, red, yellow, green,salmon);
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: underline;}
+
+.box{
+    width: 800px;
+    height: 60px;
+    border: 3px solid red;
+    border-radius: 10px;
+    background-color: lightblue;
+    margin-left: 300px;margin-top: 60px;
+    text-align: center;
+}
+ul{margin-left: 250px;
+   line-height: 9px;}
