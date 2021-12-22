@@ -1,0 +1,107 @@
+*{margin: 0;}
+
+body{
+    background-color: yellow;
+}
+
+h1{
+    margin-left: 550px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;}
+
+.box1{
+    width: 110px;
+    height: 90px;
+    border: 1px solid black;
+    background-color: violet;
+    margin-top: 40px;margin-left: 50px;
+    animation-name: box-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes box-animation {
+    25%{transform: skewX(20deg);}
+    75%{transform: skewX(-20deg);}
+    }
+
+.box2{
+    width: 110px;
+    height: 90px;
+    border: 1px solid black;
+    background-color: chartreuse;
+    margin-top: 60px;margin-left: 50px;
+    animation-name: text-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text-animation {
+
+    25%{transform: skewX(20deg);transform: skewY(20deg);}
+    75%{transform: skewX(-20deg);transform: skewY(-20deg);}
+}
+
+.box3{
+    width: 110px;
+    height: 90px;
+    border: 1px solid black;
+    background-color: coral;
+    margin-top: 80px;margin-left: 50px;
+    animation-name: coral-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes coral-animation {
+    100%{transform: rotate(360deg);}
+    
+}
+
+.box4{
+    width: 110px;height: 90px;
+    border: 1px solid black;margin-top: 80px;margin-left: 50px;
+    background-color: burlywood;
+   
+}
+.b{ 
+    animation-name: jack-animation;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes jack-animation {
+    25%{transform: scaleY(1.2)}
+    75%{transform: scaleY(0.5);}
+}
+
+.c{
+    animation-name: abhi-animation;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes abhi-animation {
+    25%{transform: scaleX(1.2);}
+    75%{transform: scaleX(0.5);}
+}
+
+.s{
+    animation-name: noddy-animation;
+    animation-duration: 5s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes noddy-animation {
+    75%{transform: rotate(120deg);}
+}
+
+span{
+    font-size: 30px;font-weight: bolder;
+    margin-left: 500px;text-decoration: underline;
+}

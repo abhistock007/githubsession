@@ -1,0 +1,97 @@
+body{
+    background-image: url("./image/sky.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+.H{
+    display: flex;
+}
+
+#happy{
+    font-size: 35px;
+    margin-left: 400px;
+    background-color: orange;
+}
+#indi{
+    font-size: 35px;
+    margin-left: 10px;
+    background-color: white;
+}
+#day{
+    font-size: 35px;
+    margin-left: 10px;
+    background-color: green;
+}
+.container{
+    background-repeat: repeat-x;
+    height:730px;
+    width:200%;
+    animation: run 10s linear infinite;
+    animation-name: run
+}
+
+
+@keyframes run {
+    100%{ 
+       transform: translateX(-1400px);
+    }
+  }
+
+.road{
+    margin-top: 480px;
+    width: 100%;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+.city{
+    margin-top: 130px;
+    position: absolute;
+}
+
+.container1{
+    width: 100%;
+}
+
+.image{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.car{
+    margin-top: 200px;
+    margin-left: 200px;
+    position: absolute;
+    animation-name: car-moving;
+    animation-timing-function: linear;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes car-moving {
+    100%{transform: translateY(1px)}
+    
+}
+
+.wheel{
+    margin-left: 238px;
+    margin-top: 280px;
+    position: absolute;
+    animation: wheel-moving 1s linear infinite;}
+
+@keyframes wheel-moving {
+    100%{transform: rotate(360deg);}
+    
+}
+
+.wheel1{
+    margin-top: 280px;
+    margin-left: 505px;
+    position: absolute;
+    animation: wheel1-moving 1s linear infinite;}
+
+@keyframes wheel1-moving {
+    100%{transform: rotate(360deg);}
+    
+}
